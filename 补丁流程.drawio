@@ -31,13 +31,13 @@
         <mxCell id="AyAx_WEE48wez3DYKcvo-37" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=16;" value="是否需要二开？" vertex="1">
           <mxGeometry height="166" width="166" x="1152" y="144" as="geometry" />
         </mxCell>
-        <mxCell id="AyAx_WEE48wez3DYKcvo-38" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" value="在效能平台下载当月最新版本全量介质" vertex="1">
+        <mxCell id="AyAx_WEE48wez3DYKcvo-38" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" value="在效能平台下载&#xa;当月最新版本全量介质" vertex="1">
           <mxGeometry height="78" width="260" x="950" y="364" as="geometry" />
         </mxCell>
         <mxCell id="AyAx_WEE48wez3DYKcvo-39" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" value="部署全量介质到项目演示环境" vertex="1">
           <mxGeometry height="78" width="260" x="950" y="504" as="geometry" />
         </mxCell>
-        <mxCell id="AyAx_WEE48wez3DYKcvo-40" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="完成产品使用（无后续补丁更新）" vertex="1">
+        <mxCell id="AyAx_WEE48wez3DYKcvo-40" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="完成产品使用" vertex="1">
           <mxGeometry height="78" width="260" x="950" y="644" as="geometry" />
         </mxCell>
         <mxCell id="AyAx_WEE48wez3DYKcvo-41" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="通过OA系统提交代码受控申请" vertex="1">
