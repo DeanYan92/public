@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.4">
   <diagram name="第 1 页" id="zwATeFb77Mb7i7cuYCD4">
-    <mxGraphModel dx="2281" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1378" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -59,7 +59,7 @@
           <mxGeometry height="78" width="260" x="1699" y="292" as="geometry" />
         </mxCell>
         <mxCell id="AyAx_WEE48wez3DYKcvo-45" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=16;" value="结合项目实际情况，&#xa;是否执行补丁更新？" vertex="1">
-          <mxGeometry height="125" width="251" x="1699" y="410" as="geometry" />
+          <mxGeometry height="125" width="251" x="1703.5" y="410" as="geometry" />
         </mxCell>
         <mxCell id="AyAx_WEE48wez3DYKcvo-46" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" value="在效能平台『同步更新分支』，&#xa;更新HF-upgrade 分支至最新版本（补齐所有未更新的月度补丁）" vertex="1">
           <mxGeometry height="102" width="260" x="1760" y="600" as="geometry" />
@@ -74,7 +74,7 @@
           <mxGeometry height="78" width="260" x="1760" y="980" as="geometry" />
         </mxCell>
         <mxCell id="AyAx_WEE48wez3DYKcvo-50" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="请二开中心研发解决冲突" vertex="1">
-          <mxGeometry height="54" width="236" x="1844" y="880" as="geometry" />
+          <mxGeometry height="54" width="236" x="1840" y="880" as="geometry" />
         </mxCell>
         <mxCell id="AyAx_WEE48wez3DYKcvo-51" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" value="基于 main 分支构建项目专属介质" vertex="1">
           <mxGeometry height="78" width="260" x="1760" y="1108" as="geometry" />
@@ -160,7 +160,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AyAx_WEE48wez3DYKcvo-68" edge="1" parent="1" source="AyAx_WEE48wez3DYKcvo-45" style="curved=1;startArrow=none;endArrow=block;exitX=0.73;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=16;" target="AyAx_WEE48wez3DYKcvo-46" value="是（需更新）">
+        <mxCell id="AyAx_WEE48wez3DYKcvo-68" edge="1" parent="1" source="AyAx_WEE48wez3DYKcvo-45" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=16;exitDx=0;exitDy=0;" target="AyAx_WEE48wez3DYKcvo-46" value="是（需更新）">
           <mxGeometry relative="1" x="0.0042" y="-7" as="geometry">
             <mxPoint as="offset" />
             <Array as="points" />
@@ -174,7 +174,7 @@
         <mxCell id="AyAx_WEE48wez3DYKcvo-71" edge="1" parent="1" source="AyAx_WEE48wez3DYKcvo-48" style="curved=1;startArrow=none;endArrow=block;exitX=0.22;exitY=1;entryX=0.34;entryY=0;rounded=0;fontSize=16;" target="AyAx_WEE48wez3DYKcvo-49" value="无">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1810" y="880" />
+              <mxPoint x="1800" y="860" />
               <mxPoint x="1810" y="950" />
             </Array>
           </mxGeometry>
@@ -188,9 +188,7 @@
         </mxCell>
         <mxCell id="AyAx_WEE48wez3DYKcvo-73" edge="1" parent="1" source="AyAx_WEE48wez3DYKcvo-50" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.66;entryY=0;rounded=0;fontSize=16;" target="AyAx_WEE48wez3DYKcvo-49" value="">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1962" y="971" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AyAx_WEE48wez3DYKcvo-74" edge="1" parent="1" source="AyAx_WEE48wez3DYKcvo-49" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=16;" target="AyAx_WEE48wez3DYKcvo-51" value="">
@@ -212,12 +210,12 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2110" y="1240" />
-              <mxPoint x="2170" y="940" />
+              <mxPoint x="2160" y="940" />
               <mxPoint x="2140" y="450" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AyAx_WEE48wez3DYKcvo-147" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="交付中心进行二开" vertex="1">
+        <mxCell id="AyAx_WEE48wez3DYKcvo-147" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="交付中心&#xa;进行二开" vertex="1">
           <mxGeometry height="78" width="120" x="1260" y="640" as="geometry" />
         </mxCell>
         <mxCell id="AyAx_WEE48wez3DYKcvo-153" edge="1" parent="1" source="AyAx_WEE48wez3DYKcvo-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="AyAx_WEE48wez3DYKcvo-43">
@@ -226,11 +224,12 @@
         <mxCell id="AyAx_WEE48wez3DYKcvo-150" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="项目组执行补丁更新" vertex="1">
           <mxGeometry height="80" width="260" x="1786" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="AyAx_WEE48wez3DYKcvo-155" edge="1" parent="1" source="AyAx_WEE48wez3DYKcvo-45" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=16;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="AyAx_WEE48wez3DYKcvo-49" value="否（无需更新）">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="AyAx_WEE48wez3DYKcvo-155" edge="1" parent="1" source="AyAx_WEE48wez3DYKcvo-45" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=16;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="AyAx_WEE48wez3DYKcvo-51" value="否（无需更新）">
+          <mxGeometry relative="1" x="-0.0375" y="10" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="1670" y="670" />
-              <mxPoint x="1670" y="820" />
+              <mxPoint x="1690" y="800" />
+              <mxPoint x="1710" y="980" />
             </Array>
             <mxPoint x="1631" y="668" as="sourcePoint" />
             <mxPoint x="1628" y="839" as="targetPoint" />
