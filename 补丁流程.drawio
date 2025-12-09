@@ -1,28 +1,31 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.4">
   <diagram name="第 1 页" id="zwATeFb77Mb7i7cuYCD4">
-    <mxGraphModel dx="1378" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2120" dy="1163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WnLyRanVqy4BEYv2J8IZ-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="480" width="385" x="1715" y="590" as="geometry" />
+        </mxCell>
         <mxCell id="AyAx_WEE48wez3DYKcvo-29" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=16;" value="产品组发布基线版本" vertex="1">
           <mxGeometry height="70" width="260" x="330" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="AyAx_WEE48wez3DYKcvo-30" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="效能平台上架基线全量介质+对应版本受控代码" vertex="1">
+        <mxCell id="AyAx_WEE48wez3DYKcvo-30" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="效能平台上架基线全量介质&#xa;+对应版本受控代码" vertex="1">
           <mxGeometry height="78" width="260" x="330" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="AyAx_WEE48wez3DYKcvo-31" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=16;" value="产品组每月月底发布月度补丁版本" vertex="1">
+        <mxCell id="AyAx_WEE48wez3DYKcvo-31" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=16;" value="产品组定期发布修订版本" vertex="1">
           <mxGeometry height="78" width="260" x="330" y="310" as="geometry" />
         </mxCell>
         <mxCell id="AyAx_WEE48wez3DYKcvo-32" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="效能平台同步更新" vertex="1">
           <mxGeometry height="70" width="260" x="330" y="450" as="geometry" />
         </mxCell>
-        <mxCell id="AyAx_WEE48wez3DYKcvo-33" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="上架当月全量介质&#xa;（含累计补丁）" vertex="1">
+        <mxCell id="AyAx_WEE48wez3DYKcvo-33" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="上架当期最新版本全量介质&#xa;（含累计补丁）" vertex="1">
           <mxGeometry height="78" width="260" x="20" y="590" as="geometry" />
         </mxCell>
         <mxCell id="AyAx_WEE48wez3DYKcvo-34" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="更新对应版本受控代码&#xa;（含累计补丁）" vertex="1">
           <mxGeometry height="78" width="260" x="330" y="590" as="geometry" />
         </mxCell>
-        <mxCell id="AyAx_WEE48wez3DYKcvo-35" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="提供当月补丁文件 &#xa;+ 自动合并代码功能" vertex="1">
+        <mxCell id="AyAx_WEE48wez3DYKcvo-35" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="生成当期补丁文件 &#xa;+ 自动合并代码功能" vertex="1">
           <mxGeometry height="78" width="260" x="640" y="590" as="geometry" />
         </mxCell>
         <mxCell id="AyAx_WEE48wez3DYKcvo-36" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="项目组申请产品" vertex="1">
@@ -31,10 +34,10 @@
         <mxCell id="AyAx_WEE48wez3DYKcvo-37" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=16;" value="是否需要二开？" vertex="1">
           <mxGeometry height="166" width="166" x="1152" y="144" as="geometry" />
         </mxCell>
-        <mxCell id="AyAx_WEE48wez3DYKcvo-38" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" value="在效能平台下载&#xa;当月最新版本全量介质" vertex="1">
+        <mxCell id="AyAx_WEE48wez3DYKcvo-38" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" value="在效能平台下载&#xa;当期最新版本全量应用介质" vertex="1">
           <mxGeometry height="78" width="260" x="950" y="364" as="geometry" />
         </mxCell>
-        <mxCell id="AyAx_WEE48wez3DYKcvo-39" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" value="部署全量介质到项目演示环境" vertex="1">
+        <mxCell id="AyAx_WEE48wez3DYKcvo-39" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" value="部署全量应用介质到项目演示环境" vertex="1">
           <mxGeometry height="78" width="260" x="950" y="504" as="geometry" />
         </mxCell>
         <mxCell id="AyAx_WEE48wez3DYKcvo-40" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="完成产品使用" vertex="1">
@@ -61,7 +64,7 @@
         <mxCell id="AyAx_WEE48wez3DYKcvo-45" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=16;" value="结合项目实际情况，&#xa;是否执行补丁更新？" vertex="1">
           <mxGeometry height="125" width="251" x="1703.5" y="410" as="geometry" />
         </mxCell>
-        <mxCell id="AyAx_WEE48wez3DYKcvo-46" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" value="在效能平台『同步更新分支』，&#xa;更新HF-upgrade 分支至最新版本（补齐所有未更新的月度补丁）" vertex="1">
+        <mxCell id="AyAx_WEE48wez3DYKcvo-46" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="在效能平台『同步更新分支』，&#xa;更新HF-upgrade 分支至最新版本（补齐所有未更新的月度补丁）" vertex="1">
           <mxGeometry height="102" width="260" x="1760" y="600" as="geometry" />
         </mxCell>
         <mxCell id="AyAx_WEE48wez3DYKcvo-47" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" value="部署专属介质到生产环境" vertex="1">
@@ -70,7 +73,7 @@
         <mxCell id="AyAx_WEE48wez3DYKcvo-48" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=16;" value="补丁合并是否有冲突？" vertex="1">
           <mxGeometry height="96" width="215" x="1782.5" y="730" as="geometry" />
         </mxCell>
-        <mxCell id="AyAx_WEE48wez3DYKcvo-49" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" value="在效能平台『合并代码』，将 HF-upgrade 分支合并到 main 分支" vertex="1">
+        <mxCell id="AyAx_WEE48wez3DYKcvo-49" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="在效能平台『合并代码』，将 HF-upgrade 分支合并到 main 分支" vertex="1">
           <mxGeometry height="78" width="260" x="1760" y="980" as="geometry" />
         </mxCell>
         <mxCell id="AyAx_WEE48wez3DYKcvo-50" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="请二开中心研发解决冲突" vertex="1">
@@ -160,7 +163,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AyAx_WEE48wez3DYKcvo-68" edge="1" parent="1" source="AyAx_WEE48wez3DYKcvo-45" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=16;exitDx=0;exitDy=0;" target="AyAx_WEE48wez3DYKcvo-46" value="是（需更新）">
+        <mxCell id="AyAx_WEE48wez3DYKcvo-68" edge="1" parent="1" source="AyAx_WEE48wez3DYKcvo-45" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=16;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="WnLyRanVqy4BEYv2J8IZ-1" value="是（需更新）">
           <mxGeometry relative="1" x="0.0042" y="-7" as="geometry">
             <mxPoint as="offset" />
             <Array as="points" />
@@ -191,7 +194,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AyAx_WEE48wez3DYKcvo-74" edge="1" parent="1" source="AyAx_WEE48wez3DYKcvo-49" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=16;" target="AyAx_WEE48wez3DYKcvo-51" value="">
+        <mxCell id="AyAx_WEE48wez3DYKcvo-74" edge="1" parent="1" source="WnLyRanVqy4BEYv2J8IZ-1" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=16;exitDx=0;exitDy=0;" target="AyAx_WEE48wez3DYKcvo-51" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
@@ -228,8 +231,8 @@
           <mxGeometry relative="1" x="-0.0375" y="10" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="1690" y="800" />
-              <mxPoint x="1710" y="980" />
+              <mxPoint x="1630" y="820" />
+              <mxPoint x="1680" y="1100" />
             </Array>
             <mxPoint x="1631" y="668" as="sourcePoint" />
             <mxPoint x="1628" y="839" as="targetPoint" />
