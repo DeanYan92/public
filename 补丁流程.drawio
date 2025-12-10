@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.6">
   <diagram name="第 1 页" id="zwATeFb77Mb7i7cuYCD4">
-    <mxGraphModel dx="2505" dy="1375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="950" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="AyAx_WEE48wez3DYKcvo-29" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=16;" value="产品组发布基线版本" vertex="1">
           <mxGeometry height="70" width="260" x="330" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="AyAx_WEE48wez3DYKcvo-30" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="效能平台上架基线全量介质&#xa;+对应版本受控代码" vertex="1">
+        <mxCell id="AyAx_WEE48wez3DYKcvo-30" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="效能平台上架基线全量介质&#xa;+对应版本受控代码模板" vertex="1">
           <mxGeometry height="78" width="260" x="330" y="160" as="geometry" />
         </mxCell>
         <mxCell id="AyAx_WEE48wez3DYKcvo-31" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=16;" value="产品组定期发布修订版本" vertex="1">
@@ -22,7 +22,7 @@
         <mxCell id="AyAx_WEE48wez3DYKcvo-33" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="上架当期最新版本全量介质&#xa;（含累计补丁）" vertex="1">
           <mxGeometry height="78" width="260" x="20" y="590" as="geometry" />
         </mxCell>
-        <mxCell id="AyAx_WEE48wez3DYKcvo-34" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="更新对应版本受控代码&#xa;（含累计补丁）" vertex="1">
+        <mxCell id="AyAx_WEE48wez3DYKcvo-34" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="制作最新版本受控代码模板&#xa;（含累计补丁）" vertex="1">
           <mxGeometry height="78" width="260" x="330" y="590" as="geometry" />
         </mxCell>
         <mxCell id="AyAx_WEE48wez3DYKcvo-35" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="生成当期补丁文件 &#xa;+ 自动合并代码功能" vertex="1">
@@ -70,7 +70,7 @@
         <mxCell id="AyAx_WEE48wez3DYKcvo-47" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" value="部署专属介质到生产环境" vertex="1">
           <mxGeometry height="54" width="236" x="1772.5" y="1340" as="geometry" />
         </mxCell>
-        <mxCell id="AyAx_WEE48wez3DYKcvo-48" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=16;" value="补丁合并是否有冲突？" vertex="1">
+        <mxCell id="AyAx_WEE48wez3DYKcvo-48" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=16;" value="HF-upgrade到main&#xa;合并是否有冲突？" vertex="1">
           <mxGeometry height="96" width="215" x="1782.5" y="730" as="geometry" />
         </mxCell>
         <mxCell id="AyAx_WEE48wez3DYKcvo-49" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" value="在效能平台『合并代码』，将 HF-upgrade 分支合并到 main 分支" vertex="1">
